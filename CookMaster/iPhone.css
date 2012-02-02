@@ -1,0 +1,126 @@
+
+/*------------------------------------*\
+ IPHONE
+ \*------------------------------------*/
+@media (max-width: 480px){
+    body{
+        padding:5px
+    }
+    #wrapper{
+        width:auto;
+        overflow:hidden;
+    }
+    #logo{
+        position:static;
+        float:none;
+        width:100%;
+        display:block;
+        text-align:center;
+    }
+    #logo a{
+        padding:5px 0;
+        display:block;
+        text-transform:uppercase;
+        color:#fff;
+        background:#f43059;
+        text-decoration:none;
+        
+        text-shadow:1px 1px 1px rgba(0,0,0,0.4);
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+    }
+    #logo a:hover{
+        padding:5px 0;
+    }
+    div{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        padding:0!important;
+    }
+    #nav,#nav li{
+        float:none!important;
+        clear:both!important;
+        margin:0 0 24px 0!important;
+        display:block;
+        padding:0;
+        text-align:left!important;
+    }
+    #nav{
+        border:1px solid #ccc;
+        padding:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+    }
+    #nav li{
+        margin:0!important;
+    }
+    #nav li a{
+        display:block;
+    }
+    .home #intro-copy .opener span,
+    .single .opener span{
+        padding:0;
+        text-align:left;
+        float:none;
+        display:inline;
+        position:static;
+        font-size:1em;
+        line-height:1em;
+    }
+    .home #intro-copy .opener > span,
+    .single .opener > span{
+        width:auto;
+        margin-left:0;
+        text-align:left;
+    }
+    .marginalia,.post-date,.comment-author{
+        width:auto;
+        float:none;
+        margin-left:0;
+        text-align:center;
+    }
+    p.marginalia{
+        font-style:italic;
+        text-align:center;
+    }
+    img{
+        width:100%!important;
+        height:auto!important;
+    }
+    img.full,
+    img.left,
+    #ad img{
+        margin-left:0;
+    }
+    #ad{
+        padding-top:10px!important;
+        text-align:center;
+    }
+    #ad img{
+        width:90px!important;
+        display:block!important;
+        margin:0 auto 10px auto!important;
+        float:none!important;
+    }
+    #ad span{
+        margin:0 0 10px 0!important;
+        clear:both;
+    }
+    blockquote,pre,.outdent{
+        margin-left:0;
+    }
+    blockquote p{
+        padding-left:0.5em;
+    }
+    .hr{
+        margin-left:0;
+    }
+    fieldset,
+    textarea{
+        width:auto!important;
+    }
+}

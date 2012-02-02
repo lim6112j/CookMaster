@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item0</key>
+	<dict>
+		<key>recipeDetail</key>
+		<string>맛있는 라면
+i:24956-2-29690.jpg
+-:물을 끓입니다.
+!:3분
+-:스프를 넣습니다. 스프만을 넣고 조금 더 끓이는 것이 라면이 맛있습니다.
+!:10초
+-:면을 반으로 쪼개 넣습니다. 식초를 준비하세요.
+?:식초를 2방울 정도 넣습니다. 면이 쫄깃해 집니다.
+-: 파를 어슷썰기해서 넣습니다.
+#1:달걀을 넣어서 드시고 싶으신가요?
+y1#2:달걀의 노른자를 그대로 드시고 싶으신가요?
+y1y2-:면을 넣은 채로 달걀을 넣으면 라면이 텁텁해집니다. 면을 꺼내서 깨끗한 그릇에 담아 놓으십시오.
+y1y2-:달걀을 그릇에 깨서 넣습니다.
+y1y2-:냄비의 가장 자리에서 천천히 부으십시오. 노란자가 깨지지 않도록 조심하십시오.
+흰자는 젖가락으로 3~4회 저어 퍼지게 하십시오.
+?:
+y1n2-:면을 꺼내서 깨끗한 그릇에 담아 놓으십시오.
+y1n2-:달걀을 그릇에 깨서 넣습니다. 노른자를 깨서 흰자와 잘 섞이도록 젖습니다. 
+많이 잘 저을수록 부드러워 집니다.
+y1n2-:냄비의 가장 자리에서 천천히 부으십시오. 젖가락으로 3~4회 저어 퍼지게 하십시오.
+n2:면이 잘 익으면 불을 끄세요.
+-:면이 담긴 그릇에 국물을 넣어서 맛있게 드십시오. 수고하셨습니다.</string>
+		<key>recipeImage</key>
+		<data></data>
+		<key>recipeIconName</key>
+		<string>0.png</string>
+		<key>ingredients</key>
+		<dict>
+			<key>name</key>
+			<string>라면;;파;;식초;;계란</string>
+			<key>check</key>
+			<string>0;;0;;0;;0</string>
+		</dict>
+	</dict>
+	<key>item1</key>
+	<dict>
+		<key>recipeDetail</key>
+		<string>오일 스파게티
+?:물을 끓이세요. 물은 충분하게 하시고 올리브오일 한수저, 소금 한수저를 넣고 끓입니다.
+?:파스타를 엄지손가락 두개 두께 만큼 집어서 준비합니다.
+?:물이 끓으면 파스타를 넣어 끓여주세요. 약 8분간 끓여주세요.
+?:면이 익는 동안 재료를 준비합니다. 마늘을 얇게 저밉니다.
+?:청양고추를 얇게 썰어 놓습니다.
+?:송이버섯을 얇게 썰어 놓습니다.
+?:후라이팬에 올리브 오일을 두르고 달구세요.
+?:후라이팬에 마늘을 올리세요. 노릇해질 때까지 구워주세요.
+?:마늘이 노릇해지면 청양고추와 송이버섯을 넣으세요. 20초간 소금을 넣고 익히세요.
+!:20초
+?:후라이팬에 물을 두컵 붓고 쫄이세요.
+!:1분
+?:후라이팬 불을 끄고, 파스타가 다 익었는지 확인하세요.
+?:익은 파스타를 접시에 올리고, 파슬리, 바질, 후추를 갈아서 뿌립니다.
+?:올리브 오일 한수저를 면에 뿌려서 비벼주세요.
+?:후라이팬 소스를 면위에 골고루 부어주세요.
+-:맛있게 드세요.</string>
+		<key>recipeImage</key>
+		<data></data>
+		<key>recipeIconName</key>
+		<string>1.png</string>
+		<key>ingredients</key>
+		<dict>
+			<key>name</key>
+			<string>파스타;;올리브오일;;마늘</string>
+			<key>check</key>
+			<string>0;;0;;0</string>
+		</dict>
+	</dict>
+	<key>item2</key>
+	<dict>
+		<key>recipeDetail</key>
+		<string>통버섯 구이
+-:Heat oven to 350ºF.
+-:Twist mushroom stems to remove from mushroom caps. Finely chop enough stems to measure 1/3 cup. Reserve mushroom caps.
+?: 대기
+-:Melt 2 tablespoons butter in 10-inch skillet over medium-high heat. Cook chopped mushroom stems, onions and bell pepper in butter about 3 minutes, stirring frequently, until onions are softened; remove from heat. Stir in bread crumbs, Italian seasoning, salt and pepper. Fill mushroom caps with bread crumb mixture.
+-: Melt 1 tablespoon butter in rectangular pan, 13x9x2 inches, in oven. Place mushrooms, filled sides up, in pan. Sprinkle with cheese. Bake 15 minutes.
+-: Set oven control to Broil. Broil mushrooms with tops 3 to 4 inches from heat about 2 minutes or until tops are light brown. Serve hot.</string>
+		<key>recipeImage</key>
+		<data></data>
+		<key>recipeIconName</key>
+		<string>SousChef.png</string>
+		<key>ingredients</key>
+		<dict>
+			<key>name</key>
+			<string>고기</string>
+			<key>check</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>item3</key>
+	<dict>
+		<key>recipeDetail</key>
+		<string>떡보끼</string>
+		<key>recipeImage</key>
+		<data></data>
+		<key>recipeIconName</key>
+		<string>3.png</string>
+		<key>ingredients</key>
+		<dict>
+			<key>name</key>
+			<string>떡;;고추장</string>
+			<key>check</key>
+			<string>0;;0</string>
+		</dict>
+	</dict>
+	<key>item4</key>
+	<dict>
+		<key>recipeDetail</key>
+		<string>토마토 스파게티 
+-:토마토는 믹서기에 갈아줍니다.
+-:모든 야채는 다져 줍니다.
+?:잠시 멈춤
+-:모든재료를 섞어 냄비에 끊여줍니다.
+-:냄비에 케첩,우스터소스를 충분히 넣어주세요.
+-:스파케티면을 삶습니다.
+-:토마토 소스를 뿌려 맛있게 드십시요. 수고하셨습니다.</string>
+		<key>recipeIconName</key>
+		<string>3.png</string>
+		<key>ingredients</key>
+		<dict>
+			<key>name</key>
+			<string>토마토3개;;소고기 다진것300g;; 피망,;;양파;; 케첩;; 우스터소스;; 소금;;후추;; 설탕;마늘</string>
+			<key>check</key>
+			<string> 0;;0;;0;;0;;0;;0;;0;;0;;0;;0;;0</string>
+		</dict>
+	</dict>
+	<key>item5</key>
+	<dict>
+		<key>recipeDetail</key>
+		<string>맛있는 라면
+-:물을 끓입니다.
+!:10초
+-:스프를 넣습니다. 스프만을 넣고 조금 더 끓이는 것이 라면이 맛있습니다.
+!:10초
+-:면을 반으로 쪼개 넣습니다. 식초를 준비하세요.
+?:식초를 2방울 정도 넣습니다. 면이 쫄깃해 집니다.
+-: 파를 어슷썰기해서 넣습니다.
+#1:달걀을 넣어서 드시고 싶으신가요?
+y1#2:달걀의 노른자를 그대로 드시고 싶으신가요?
+y1y2-:면을 넣은 채로 달걀을 넣으면 라면이 텁텁해집니다. 면을 꺼내서 깨끗한 그릇에 담아 놓으십시오.
+y1y2-:달걀을 그릇에 깨서 넣습니다.
+y1y2-:냄비의 가장 자리에서 천천히 부으십시오. 노란자가 깨지지 않도록 조심하십시오.
+y1y2-:흰자는 젖가락으로 3~4회 저어 퍼지게 하십시오.
+?:
+y1n2-:면을 꺼내서 깨끗한 그릇에 담아 놓으십시오.
+y1n2-:달걀을 그릇에 깨서 넣습니다. 노른자를 깨서 흰자와 잘 섞이도록 젖습니다. 
+y1n2-:냄비의 가장 자리에서 천천히 부으십시오. 젖가락으로 3~4회 저어 퍼지게 하십시오.
+n2-:면이 잘 익으면 불을 끄세요.
+-:면이 담긴 그릇에 국물을 넣어서 맛있게 드십시오. 수고하셨습니다.</string>
+		<key>recipeImage</key>
+		<data></data>
+		<key>recipeIconName</key>
+		<string>0.png</string>
+		<key>ingredients</key>
+		<dict>
+			<key>name</key>
+			<string>라면;;파;;식초;;계란</string>
+			<key>check</key>
+			<string>0;;0;;0;;0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
