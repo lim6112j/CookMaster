@@ -1933,6 +1933,7 @@
 				INSTALL_PATH = /usr/local/lib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = OpenEarsLibrary;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -1956,6 +1957,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = OpenEarsLibrary;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};

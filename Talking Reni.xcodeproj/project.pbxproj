@@ -802,7 +802,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: byeong cheol lim";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: byeong cheol lim";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -825,7 +826,10 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "F61E0942-3E57-44D0-A31A-CAC0A8E7EE7C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F61E0942-3E57-44D0-A31A-CAC0A8E7EE7C";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -836,7 +840,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: byeong cheol lim";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: byeong cheol lim";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = YES;
@@ -853,7 +858,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F61E0942-3E57-44D0-A31A-CAC0A8E7EE7C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F61E0942-3E57-44D0-A31A-CAC0A8E7EE7C";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -863,6 +871,7 @@
 		7F6B2F7114710F4300A7BB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CookMaster/Talking Reni-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -875,7 +884,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Talking Reni";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -883,6 +893,7 @@
 		7F6B2F7214710F4300A7BB19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CookMaster/Talking Reni-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -895,7 +906,8 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Talking Reni";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

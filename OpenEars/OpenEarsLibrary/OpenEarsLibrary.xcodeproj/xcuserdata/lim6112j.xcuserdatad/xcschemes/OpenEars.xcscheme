@@ -46,6 +46,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7F6B2F4014710F4200A7BB19"
+            BuildableName = "Talking Reni.app"
+            BlueprintName = "Talking Reni"
+            ReferencedContainer = "container:../../Talking Reni.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
